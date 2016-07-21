@@ -170,7 +170,7 @@ public class LinkedInConnectorIntegrationTest extends ESBIntegrationTest {
     /**
      * Mandatory parameter test case for addComment method.
      */
-    @Test(groups = {"wso2.esb"}, description = "linkedin {addComment} integration test.")
+    @Test(groups = {"wso2.esb"}, enabled = false,description = "linkedin {addComment} integration test.")
     public void testAddCommentWithMandatoryParameters() throws Exception {
 
         String jsonRequestFilePath = pathToRequestsDirectory + "addComment_mandatory.txt";
@@ -193,7 +193,7 @@ public class LinkedInConnectorIntegrationTest extends ESBIntegrationTest {
     /**
      * Negative parameter test case for addComment method.
      */
-    @Test(groups = {"wso2.esb"}, description = "linkedin {addComment} integration test.")
+    @Test(groups = {"wso2.esb"},enabled = false,description = "linkedin {addComment} integration test.")
     public void testAddCommentWithNegativeCase() throws Exception {
 
         String jsonRequestFilePath = pathToRequestsDirectory + "addComment_negative.txt";
@@ -216,7 +216,7 @@ public class LinkedInConnectorIntegrationTest extends ESBIntegrationTest {
     /**
      * Mandatory parameter test case for getHistoricalStatusUpdate method.
      */
-    @Test(groups = {"wso2.esb"}, description = "linkedin {gethistoricalStatusUpdate} integration test.")
+    @Test(groups = {"wso2.esb"},enabled = false,description = "linkedin {gethistoricalStatusUpdate} integration test.")
     public void testGetHistoricalStatusUpdateWithMandatoryParameters() throws Exception {
 
         String jsonRequestFilePath = pathToRequestsDirectory + "getHistoricalStatusUpdate_mandatory.txt";
@@ -238,7 +238,7 @@ public class LinkedInConnectorIntegrationTest extends ESBIntegrationTest {
     /**
      * Optional parameter test case for getHistoricalStatusUpdate method.
      */
-    @Test(groups = {"wso2.esb"}, description = "linkedin {getHistoricalStatusUpdate} integration test.")
+    @Test(groups = {"wso2.esb"},enabled = false,description = "linkedin {getHistoricalStatusUpdate} integration test.")
     public void testGetHistoricalStatusUpdateWithOptionalParameters() throws Exception {
 
         String jsonRequestFilePath = pathToRequestsDirectory + "getHistoricalStatusUpdate_optional.txt";
@@ -352,7 +352,7 @@ public class LinkedInConnectorIntegrationTest extends ESBIntegrationTest {
     /**
      * Mandatory parameter test case for accessOutOfNetworkProfiles method.
      */
-    @Test(groups = {"wso2.esb"}, description = "linkedin {accessOutOfNetworkProfiles} integration test.")
+    @Test(groups = {"wso2.esb"}, enabled = false,description = "linkedin {accessOutOfNetworkProfiles} integration test.")
     public void testAccessOutOfNetworkProfilesWithMandatoryParameters() throws Exception {
 
         String jsonRequestFilePath = pathToRequestsDirectory + "accessOutOfNetworkProfiles_mandatory.txt";
@@ -602,7 +602,7 @@ public class LinkedInConnectorIntegrationTest extends ESBIntegrationTest {
     /**
      * Mandatory parameter test case for getHistoricalFollowers_mandatory method.
      */
-    @Test(enabled = true, groups = {"wso2.esb"}, description = "linkedin {getHistoricalFollowers with Mandatory  Fields} integration test.")
+    @Test(enabled = false,groups = {"wso2.esb"}, description = "linkedin {getHistoricalFollowers with Mandatory  Fields} integration test.")
     public void testGetHistoricalFollowers_mandatory() throws Exception {
 
         String jsonRequestFilePath = pathToRequestsDirectory + "getHistoricalFollowers_mandatory.txt";
@@ -625,7 +625,7 @@ public class LinkedInConnectorIntegrationTest extends ESBIntegrationTest {
     /**
      * Optional parameter test case for getHistoricalFollowers method.
      */
-    @Test(enabled = true, groups = {"wso2.esb"}, description = "linkedin {getHistoricalFollowers with Additional Fields} integration test.")
+    @Test(enabled = false, groups = {"wso2.esb"}, description = "linkedin {getHistoricalFollowers with Additional Fields} integration test.")
     public void testGetHistoricalFollowers_optional() throws Exception {
 
         String jsonRequestFilePath = pathToRequestsDirectory + "getHistoricalFollowers_optional.txt";
