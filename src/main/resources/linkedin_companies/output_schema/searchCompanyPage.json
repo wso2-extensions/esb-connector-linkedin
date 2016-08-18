@@ -1,0 +1,122 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "companies": {
+      "id": "http:\/\/wso2jsonschema.org\/companies",
+      "type": "object",
+      "properties": {
+        "_count": {
+          "id": "http:\/\/wso2jsonschema.org\/companies\/_count",
+          "type": "number"
+        },
+        "_start": {
+          "id": "http:\/\/wso2jsonschema.org\/companies\/_start",
+          "type": "number"
+        },
+        "_total": {
+          "id": "http:\/\/wso2jsonschema.org\/companies\/_total",
+          "type": "number"
+        },
+        "values": {
+          "id": "http:\/\/wso2jsonschema.org\/companies\/values",
+          "type": "array",
+          "items": [
+            {
+              "id": "http:\/\/wso2jsonschema.org\/companies\/values\/0",
+              "type": "object",
+              "properties": {
+                "id": {
+                  "id": "http:\/\/wso2jsonschema.org\/companies\/values\/0\/id",
+                  "type": "number"
+                },
+                "name": {
+                  "id": "http:\/\/wso2jsonschema.org\/companies\/values\/0\/name",
+                  "type": "string"
+                },
+                "websiteUrl": {
+                  "id": "http:\/\/wso2jsonschema.org\/companies\/values\/0\/websiteUrl",
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "facets": {
+      "id": "http:\/\/wso2jsonschema.org\/facets",
+      "type": "object",
+      "properties": {
+        "_total": {
+          "id": "http:\/\/wso2jsonschema.org\/facets\/_total",
+          "type": "number"
+        },
+        "values": {
+          "id": "http:\/\/wso2jsonschema.org\/facets\/values",
+          "type": "array",
+          "items": [
+            {
+              "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0",
+              "type": "object",
+              "properties": {
+                "buckets": {
+                  "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/buckets",
+                  "type": "object",
+                  "properties": {
+                    "_total": {
+                      "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/buckets\/_total",
+                      "type": "number"
+                    },
+                    "values": {
+                      "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/buckets\/values",
+                      "type": "array",
+                      "items": [
+                        {
+                          "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/buckets\/values\/0",
+                          "type": "object",
+                          "properties": {
+                            "code": {
+                              "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/buckets\/values\/0\/code",
+                              "type": "string"
+                            },
+                            "count": {
+                              "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/buckets\/values\/0\/count",
+                              "type": "number"
+                            },
+                            "name": {
+                              "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/buckets\/values\/0\/name",
+                              "type": "string"
+                            },
+                            "selected": {
+                              "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/buckets\/values\/0\/selected",
+                              "type": "boolean"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "code": {
+                  "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/code",
+                  "type": "string"
+                },
+                "name": {
+                  "id": "http:\/\/wso2jsonschema.org\/facets\/values\/0\/name",
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "numResults": {
+      "id": "http:\/\/wso2jsonschema.org\/numResults",
+      "type": "number"
+    }
+  },
+  "type": "object"
+}

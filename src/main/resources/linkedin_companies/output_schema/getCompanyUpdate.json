@@ -1,0 +1,184 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "_count": {
+      "id": "http:\/\/wso2jsonschema.org\/_count",
+      "type": "number"
+    },
+    "_start": {
+      "id": "http:\/\/wso2jsonschema.org\/_start",
+      "type": "number"
+    },
+    "_total": {
+      "id": "http:\/\/wso2jsonschema.org\/_total",
+      "type": "number"
+    },
+    "values": {
+      "id": "http:\/\/wso2jsonschema.org\/values",
+      "type": "array",
+      "items": [
+        {
+          "id": "http:\/\/wso2jsonschema.org\/values\/0",
+          "type": "object",
+          "properties": {
+            "isCommentable": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/isCommentable",
+              "type": "boolean"
+            },
+            "isLikable": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/isLikable",
+              "type": "boolean"
+            },
+            "isLiked": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/isLiked",
+              "type": "boolean"
+            },
+            "numLikes": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/numLikes",
+              "type": "number"
+            },
+            "timestamp": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/timestamp",
+              "type": "number"
+            },
+            "updateComments": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateComments",
+              "type": "object",
+              "properties": {
+                "_total": {
+                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateComments\/_total",
+                  "type": "number"
+                }
+              }
+            },
+            "updateContent": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent",
+              "type": "object",
+              "properties": {
+                "company": {
+                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/company",
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/company\/id",
+                      "type": "number"
+                    },
+                    "name": {
+                      "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/company\/name",
+                      "type": "string"
+                    }
+                  }
+                },
+                "companyStatusUpdate": {
+                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate",
+                  "type": "object",
+                  "properties": {
+                    "share": {
+                      "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share",
+                      "type": "object",
+                      "properties": {
+                        "content": {
+                          "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/content",
+                          "type": "object",
+                          "properties": {
+                            "description": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/content\/description",
+                              "type": "string"
+                            },
+                            "eyebrowUrl": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/content\/eyebrowUrl",
+                              "type": "string"
+                            },
+                            "shortenedUrl": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/content\/shortenedUrl",
+                              "type": "string"
+                            },
+                            "submittedImageUrl": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/content\/submittedImageUrl",
+                              "type": "string"
+                            },
+                            "submittedUrl": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/content\/submittedUrl",
+                              "type": "string"
+                            },
+                            "thumbnailUrl": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/content\/thumbnailUrl",
+                              "type": "string"
+                            },
+                            "title": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/content\/title",
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "id": {
+                          "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/id",
+                          "type": "string"
+                        },
+                        "source": {
+                          "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/source",
+                          "type": "object",
+                          "properties": {
+                            "application": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/source\/application",
+                              "type": "object",
+                              "properties": {
+                                "name": {
+                                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/source\/application\/name",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "serviceProvider": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/source\/serviceProvider",
+                              "type": "object",
+                              "properties": {
+                                "name": {
+                                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/source\/serviceProvider\/name",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "serviceProviderShareId": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/source\/serviceProviderShareId",
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "timestamp": {
+                          "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/timestamp",
+                          "type": "number"
+                        },
+                        "visibility": {
+                          "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/visibility",
+                          "type": "object",
+                          "properties": {
+                            "code": {
+                              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateContent\/companyStatusUpdate\/share\/visibility\/code",
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "updateKey": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateKey",
+              "type": "string"
+            },
+            "updateType": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/updateType",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "type": "object"
+}

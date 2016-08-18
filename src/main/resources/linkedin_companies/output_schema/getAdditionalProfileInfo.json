@@ -1,0 +1,204 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "companyType": {
+      "id": "http:\/\/wso2jsonschema.org\/companyType",
+      "type": "object",
+      "properties": {
+        "code": {
+          "id": "http:\/\/wso2jsonschema.org\/companyType\/code",
+          "type": "string"
+        },
+        "name": {
+          "id": "http:\/\/wso2jsonschema.org\/companyType\/name",
+          "type": "string"
+        }
+      }
+    },
+    "description": {
+      "id": "http:\/\/wso2jsonschema.org\/description",
+      "type": "string"
+    },
+    "emailDomains": {
+      "id": "http:\/\/wso2jsonschema.org\/emailDomains",
+      "type": "object",
+      "properties": {
+        "_total": {
+          "id": "http:\/\/wso2jsonschema.org\/emailDomains\/_total",
+          "type": "number"
+        }
+      }
+    },
+    "employeeCountRange": {
+      "id": "http:\/\/wso2jsonschema.org\/employeeCountRange",
+      "type": "object",
+      "properties": {
+        "code": {
+          "id": "http:\/\/wso2jsonschema.org\/employeeCountRange\/code",
+          "type": "string"
+        },
+        "name": {
+          "id": "http:\/\/wso2jsonschema.org\/employeeCountRange\/name",
+          "type": "string"
+        }
+      }
+    },
+    "foundedYear": {
+      "id": "http:\/\/wso2jsonschema.org\/foundedYear",
+      "type": "number"
+    },
+    "id": {
+      "id": "http:\/\/wso2jsonschema.org\/id",
+      "type": "number"
+    },
+    "industries": {
+      "id": "http:\/\/wso2jsonschema.org\/industries",
+      "type": "object",
+      "properties": {
+        "_total": {
+          "id": "http:\/\/wso2jsonschema.org\/industries\/_total",
+          "type": "number"
+        },
+        "values": {
+          "id": "http:\/\/wso2jsonschema.org\/industries\/values",
+          "type": "array",
+          "items": [
+            {
+              "id": "http:\/\/wso2jsonschema.org\/industries\/values\/0",
+              "type": "object",
+              "properties": {
+                "code": {
+                  "id": "http:\/\/wso2jsonschema.org\/industries\/values\/0\/code",
+                  "type": "string"
+                },
+                "name": {
+                  "id": "http:\/\/wso2jsonschema.org\/industries\/values\/0\/name",
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "locations": {
+      "id": "http:\/\/wso2jsonschema.org\/locations",
+      "type": "object",
+      "properties": {
+        "_total": {
+          "id": "http:\/\/wso2jsonschema.org\/locations\/_total",
+          "type": "number"
+        },
+        "values": {
+          "id": "http:\/\/wso2jsonschema.org\/locations\/values",
+          "type": "array",
+          "items": [
+            {
+              "id": "http:\/\/wso2jsonschema.org\/locations\/values\/0",
+              "type": "object",
+              "properties": {
+                "address": {
+                  "id": "http:\/\/wso2jsonschema.org\/locations\/values\/0\/address",
+                  "type": "object",
+                  "properties": {
+                    "city": {
+                      "id": "http:\/\/wso2jsonschema.org\/locations\/values\/0\/address\/city",
+                      "type": "string"
+                    },
+                    "postalCode": {
+                      "id": "http:\/\/wso2jsonschema.org\/locations\/values\/0\/address\/postalCode",
+                      "type": "string"
+                    },
+                    "street1": {
+                      "id": "http:\/\/wso2jsonschema.org\/locations\/values\/0\/address\/street1",
+                      "type": "string"
+                    }
+                  }
+                },
+                "contactInfo": {
+                  "id": "http:\/\/wso2jsonschema.org\/locations\/values\/0\/contactInfo",
+                  "type": "object",
+                  "properties": {
+                    "fax": {
+                      "id": "http:\/\/wso2jsonschema.org\/locations\/values\/0\/contactInfo\/fax",
+                      "type": "string"
+                    },
+                    "phone1": {
+                      "id": "http:\/\/wso2jsonschema.org\/locations\/values\/0\/contactInfo\/phone1",
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "logoUrl": {
+      "id": "http:\/\/wso2jsonschema.org\/logoUrl",
+      "type": "string"
+    },
+    "name": {
+      "id": "http:\/\/wso2jsonschema.org\/name",
+      "type": "string"
+    },
+    "numFollowers": {
+      "id": "http:\/\/wso2jsonschema.org\/numFollowers",
+      "type": "number"
+    },
+    "specialties": {
+      "id": "http:\/\/wso2jsonschema.org\/specialties",
+      "type": "object",
+      "properties": {
+        "_total": {
+          "id": "http:\/\/wso2jsonschema.org\/specialties\/_total",
+          "type": "number"
+        },
+        "values": {
+          "id": "http:\/\/wso2jsonschema.org\/specialties\/values",
+          "type": "array",
+          "items": [
+            {
+              "id": "http:\/\/wso2jsonschema.org\/specialties\/values\/0",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "squareLogoUrl": {
+      "id": "http:\/\/wso2jsonschema.org\/squareLogoUrl",
+      "type": "string"
+    },
+    "status": {
+      "id": "http:\/\/wso2jsonschema.org\/status",
+      "type": "object",
+      "properties": {
+        "code": {
+          "id": "http:\/\/wso2jsonschema.org\/status\/code",
+          "type": "string"
+        },
+        "name": {
+          "id": "http:\/\/wso2jsonschema.org\/status\/name",
+          "type": "string"
+        }
+      }
+    },
+    "twitterId": {
+      "id": "http:\/\/wso2jsonschema.org\/twitterId",
+      "type": "null"
+    },
+    "universalName": {
+      "id": "http:\/\/wso2jsonschema.org\/universalName",
+      "type": "string"
+    },
+    "websiteUrl": {
+      "id": "http:\/\/wso2jsonschema.org\/websiteUrl",
+      "type": "string"
+    }
+  },
+  "type": "object"
+}

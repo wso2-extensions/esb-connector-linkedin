@@ -1,0 +1,37 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "companyId": {
+      "id": "http:\/\/wso2jsonschema.org\/companyId",
+      "type": "string"
+    },
+    "geos": {
+      "id": "http:\/\/wso2jsonschema.org\/geos",
+      "type": "string",
+      "nullable": "true"
+    },
+    "jobFunc": {
+      "id": "http:\/\/wso2jsonschema.org\/jobFunc",
+      "type": "string",
+      "nullable": "true"
+    },
+    "industries": {
+      "id": "http:\/\/wso2jsonschema.org\/industries",
+      "type": "string",
+      "nullable": "true"
+    },
+    "seniorities": {
+      "id": "http:\/\/wso2jsonschema.org\/seniorities",
+      "type": "string",
+      "nullable": "true"
+    },
+    "companySizes": {
+      "id": "http:\/\/wso2jsonschema.org\/companySizes",
+      "type": "string",
+      "nullable": "true"
+    }
+  },
+  "type": "object"
+}

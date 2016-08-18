@@ -1,0 +1,17 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "companyId": {
+      "id": "http:\/\/wso2jsonschema.org\/companyId",
+      "type": "string"
+    },
+    "properties": {
+      "id": "http:\/\/wso2jsonschema.org\/properties",
+      "type": "string",
+      "nullable": "true"
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "_total": {
+      "id": "http:\/\/wso2jsonschema.org\/_total",
+      "type": "number"
+    },
+    "values": {
+      "id": "http:\/\/wso2jsonschema.org\/values",
+      "type": "array",
+      "items": [
+        {
+          "id": "http:\/\/wso2jsonschema.org\/values\/0",
+          "type": "object",
+          "properties": {
+            "impressionCount": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/impressionCount",
+              "type": "number"
+            },
+            "time": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/time",
+              "type": "number"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "type": "object"
+}

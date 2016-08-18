@@ -1,0 +1,54 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "_total": {
+      "id": "http:\/\/wso2jsonschema.org\/_total",
+      "type": "number"
+    },
+    "values": {
+      "id": "http:\/\/wso2jsonschema.org\/values",
+      "type": "array",
+      "items": [
+        {
+          "id": "http:\/\/wso2jsonschema.org\/values\/0",
+          "type": "object",
+          "properties": {
+            "person": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/person",
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/person\/firstName",
+                  "type": "string"
+                },
+                "headline": {
+                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/person\/headline",
+                  "type": "string"
+                },
+                "id": {
+                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/person\/id",
+                  "type": "string"
+                },
+                "lastName": {
+                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/person\/lastName",
+                  "type": "string"
+                },
+                "pictureUrl": {
+                  "id": "http:\/\/wso2jsonschema.org\/values\/0\/person\/pictureUrl",
+                  "type": "string"
+                }
+              }
+            },
+            "timestamp": {
+              "id": "http:\/\/wso2jsonschema.org\/values\/0\/timestamp",
+              "type": "number"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "type": "object"
+}

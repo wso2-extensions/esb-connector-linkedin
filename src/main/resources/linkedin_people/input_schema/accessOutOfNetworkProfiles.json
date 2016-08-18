@@ -1,0 +1,22 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "memberId": {
+      "id": "http:\/\/wso2jsonschema.org\/memberId",
+      "type": "string"
+    },
+    "standardProfileHeader": {
+      "id": "http:\/\/wso2jsonschema.org\/standardProfileHeader",
+      "type": "string",
+      "nullable": "true"
+    },
+    "fieldSelectors": {
+      "id": "http:\/\/wso2jsonschema.org\/fieldSelectors",
+      "type": "string",
+      "nullable": "true"
+    }
+  },
+  "type": "object"
+}
