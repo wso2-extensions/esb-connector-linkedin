@@ -1,0 +1,48 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "refineResults": {
+      "id": "http:\/\/wso2jsonschema.org\/refineResults",
+      "type": "string",
+      "nullable": "true"
+    },
+    "keywords": {
+      "id": "http:\/\/wso2jsonschema.org\/keywords",
+      "type": "string",
+      "nullable": "true"
+    },
+    "isHqOnly": {
+      "id": "http:\/\/wso2jsonschema.org\/isHqOnly",
+      "type": "string",
+      "nullable": "true"
+    },
+    "facet": {
+      "id": "http:\/\/wso2jsonschema.org\/facet",
+      "type": "string",
+      "nullable": "true"
+    },
+    "facets": {
+      "id": "http:\/\/wso2jsonschema.org\/facets",
+      "type": "string",
+      "nullable": "true"
+    },
+    "start": {
+      "id": "http:\/\/wso2jsonschema.org\/start",
+      "type": "string",
+      "nullable": "true"
+    },
+    "count": {
+      "id": "http:\/\/wso2jsonschema.org\/count",
+      "type": "string",
+      "nullable": "true"
+    },
+    "sort": {
+      "id": "http:\/\/wso2jsonschema.org\/sort",
+      "type": "string",
+      "nullable": "true"
+    }
+  },
+  "type": "object"
+}

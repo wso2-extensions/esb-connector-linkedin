@@ -1,0 +1,32 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "comment": {
+      "id": "http:\/\/wso2jsonschema.org\/comment",
+      "type": "string"
+    },
+    "title": {
+      "id": "http:\/\/wso2jsonschema.org\/title",
+      "type": "string"
+    },
+    "description": {
+      "id": "http:\/\/wso2jsonschema.org\/description",
+      "type": "string"
+    },
+    "submittedUrl": {
+      "id": "http:\/\/wso2jsonschema.org\/submittedUrl",
+      "type": "string"
+    },
+    "submittedImageUrl": {
+      "id": "http:\/\/wso2jsonschema.org\/submittedImageUrl",
+      "type": "string"
+    },
+    "code": {
+      "id": "http:\/\/wso2jsonschema.org\/code",
+      "type": "string"
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "active": {
+      "id": "http:\/\/wso2jsonschema.org\/active",
+      "type": "boolean"
+    },
+    "company": {
+      "id": "http:\/\/wso2jsonschema.org\/company",
+      "type": "object",
+      "properties": {
+        "name": {
+          "id": "http:\/\/wso2jsonschema.org\/company\/name",
+          "type": "string"
+        }
+      }
+    },
+    "descriptionSnippet": {
+      "id": "http:\/\/wso2jsonschema.org\/descriptionSnippet",
+      "type": "string"
+    },
+    "id": {
+      "id": "http:\/\/wso2jsonschema.org\/id",
+      "type": "number"
+    },
+    "position": {
+      "id": "http:\/\/wso2jsonschema.org\/position",
+      "type": "object",
+      "properties": {
+        "title": {
+          "id": "http:\/\/wso2jsonschema.org\/position\/title",
+          "type": "string"
+        }
+      }
+    },
+    "postingTimestamp": {
+      "id": "http:\/\/wso2jsonschema.org\/postingTimestamp",
+      "type": "number"
+    }
+  },
+  "type": "object"
+}

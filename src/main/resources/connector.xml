@@ -26,5 +26,8 @@
         <dependency component="linkedin_people"/>
         <dependency component="linkedin_status"/>
         <description>WSO2 Connector for LinkedIn 1.0</description>
+        <authenticationInfo>
+            https://docs.wso2.com/display/ESBCONNECTORS/LinkedIn+Connector#LinkedInConnector-Gettingtheaccesstoken
+        </authenticationInfo>
     </component>
 </connector>
