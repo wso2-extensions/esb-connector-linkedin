@@ -1,0 +1,21 @@
+{
+    "name": "LinkedIn",
+    "owner": "WSO2",
+    "category": "Social Media",
+    "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/LinkedIn+Connector",
+    "description": "The LinkedIn connector allows you to access the LinkedIn API, an online social networking service and micro blogging service that enables its users to create applications to build their professional identity online and stay in touch with colleagues and classmates. It also discovers professional opportunities, business deals, and new ventures.",
+    "status": "Unsupported",
+    "labels": [
+        "connector"
+    ],
+    "releases": [
+        {
+            "tagName": "v1.0.2",
+            "products": [
+                "ESB 5.0.0",
+                "ESB 4.9.0"
+            ],
+            "isHidden": false
+        }
+    ]
+}
